@@ -4,7 +4,7 @@ let heightM = 1.75;
 let heightSquared = heightM ** 2;
 let bmi = weightKg/heightSquared;
 result = document.getElementById("result");
-result.innerHTML = `${bmi}`;
+result.innerHTML = "BMI details in the console as instructed.";
 
 let isUnderweight = false;
 let isNormalWeight = false;
